@@ -1,0 +1,42 @@
+.promo{
+	padding-bottom: 200px;
+	padding-top: 231px;
+	height: 100vh;
+	background: url(../../icons/BG.png)no-repeat  100%/cover;
+	&__content{
+		max-width: 754px;
+	}
+	&__title{
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 68px;
+		line-height: 83px;
+		color: #FFFFFF;
+		/* identical to box height */
+		letter-spacing: 0.150em;
+		&:not(:last-child){
+			margin-bottom: 32px;
+		}
+		span{
+			-webkit-text-fill-color: transparent;
+			-webkit-text-stroke: 2px #FFFFFF;
+		}
+	}
+	&__text{
+		max-width: 519px;
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 1.5;
+		/* or 150% */
+		color: #FFFFFF;
+		&:not(:last-child){
+			margin-bottom: 40px;
+		}
+	}
+	&__btton{
+
+	}
+}
