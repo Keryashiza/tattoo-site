@@ -1,0 +1,100 @@
+.team{
+	padding-top: 124px;
+	padding-bottom: 82px;
+	&__title{
+		margin-bottom: 80px;
+	}
+	&__body{
+		display: flex;
+	}
+	&__body-voloshina{
+		position: relative;
+		z-index: 10;
+		&::before{
+			content: "";
+			position: absolute;
+			top: 36px;
+			left: 55%;
+			display: block;
+			width: 590px;
+			height: 523px;
+			background: url(../../image/rectangle/Group308.svg)no-repeat center;
+			transform: translate(-50%);
+			z-index: 0;
+		}
+	}
+}
+.column-1__team{
+	position: relative;
+	margin-right: 35px;
+	display: flex;
+	flex-direction: column;
+	gap: 63px;
+	&__image{
+		border-radius: 27px;
+	}
+	&-image-2{
+	}
+}
+.column-2__team{
+	position: relative;
+	z-index: 10;
+	margin-right: 37px;
+	&
+	&-text{
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 22px;
+		/* identical to box height */
+		color: #FFFFFF;
+		opacity: 0.6;
+		margin-bottom: 20px;
+	}
+	&__image{
+		border-radius: 27px;
+	}
+	&__image:not(:last-child){
+		margin-bottom: 42px;
+	}
+}
+.column-3__team{
+	padding-top: 161px;
+	p{
+		margin-bottom: 40px;
+	}
+	p:not(:last-child){
+		margin-bottom: 40px;
+	}
+	&-text{
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 25px;
+		/* or 140% */
+		color: #FFFFFF;
+	}
+}
+.team__body-ivanov{
+	position: relative;
+	padding-top: 80px;
+	.column-2__team__image{
+		display: flex;
+		justify-content: flex-end;
+		img{
+			border-radius: 20px;
+		}
+	}
+	&::before{
+		content: "";
+		position: absolute;
+		left: -25%;
+		bottom: -50%;
+		display: block;
+		width: 590px;
+		height: 523px;
+		background: url(../../image/rectangle/Group308.svg)no-repeat center;
+	}
+}
